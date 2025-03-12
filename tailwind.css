@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap');
+
+
+@layer components {
+    .post-card {
+      @apply bg-white rounded-lg shadow-md overflow-hidden;
+    }
+    .post-image {
+      @apply w-full h-56 object-cover;
+    }
+    .post-title {
+      @apply text-xl font-semibold hover:text-blue-500;
+    }
+  }
+  
